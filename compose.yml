@@ -1,0 +1,6 @@
+services:
+  papermc:
+    build: .
+    container_name: papermc_scraper
+    restart: unless-stopped
+
