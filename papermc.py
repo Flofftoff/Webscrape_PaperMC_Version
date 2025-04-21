@@ -116,7 +116,7 @@ try:
         print("3: Valiation complete, waiting for 60sec")
         time.sleep(60)
         print("4: restarting")
-except KeyboardInterrupt:
+except KeyboardInterrupt:   # press crtl+c to get to "finally" and recive an overview of service
     print("\n⛔ Interrupted by user. Cleaning up...")
 
 finally:
